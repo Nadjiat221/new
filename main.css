@@ -1,0 +1,406 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.header nav{
+    padding: 30px;
+}
+.header nav ol{
+    list-style-type: none;
+    float: right;
+    display: flex;
+    gap: 55px;
+    margin-right: 40px;
+}
+.header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#contact{
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.header nav h1{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 40px;
+    letter-spacing: 8px;
+}
+.header nav #arrow{
+    margin-left: 600px;
+    padding-top: 80px;
+
+}
+/*.section{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+}*/
+/*.header{
+    width:auto;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box .card1{
+    background-color:#fff;
+    width: 50%;
+}
+.box .card2{
+
+    width: 50%;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box2 .card3{
+    width: 50%;
+
+}
+.box2 .card4{
+    background-color:#fff;
+    width: 0%;
+}
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box3 .card5{
+    background-image: url(images/desktop/image-photography.jpg);
+    width: 50%;
+}
+.box3 .card5{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    width: 50%;
+}*/
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 90vh;
+}
+#card1{
+    width: 100%;
+    height: 90vh;
+}
+.head{
+    padding-top: 100px;
+}
+#card1 h1{
+    font-size: 30px; 
+    font-family: 'Fraunces', serif;
+    padding-left: 40px;
+
+}
+#card1 p{
+    font-size: 20px;
+    padding-left: 40px;
+
+}
+#card1 h4{
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    text-decoration:underline hsl(51, 100%, 49%) 3px;
+
+}
+#card2{
+    background-image: url(images/desktop/image-transform.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+#card3{
+    background-image: url(images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+#card4{
+    width: 100%;
+    height: 90vh;
+
+}
+#card4 p{
+    padding-left: 60px;
+    font-size: 20px;
+
+}
+#card4 h4{
+
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    text-decoration:underline hsl(7, 99%, 70%) 3px;
+    padding-left: 60px;
+
+}
+#card4 h1{
+    font-size: 30px; 
+    font-family: 'Fraunces', serif;
+    padding-left: 60px;
+
+
+}
+#card5{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    
+}
+#card5 h1{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    padding-top: 300px;
+
+}
+#card5 p{
+    text-align: center;
+    
+}
+#card6{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    
+}
+#card6 h1{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    padding-top: 300px;
+}
+#card6 p{
+   
+    text-align: center;
+}
+.container{
+    margin-top: 1200px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    
+}
+#client{
+
+}
+.column{
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column .card1{
+    border-radius: 50px;
+    margin-left: -600px;
+}
+.column .card2{
+    margin-top: -350px;
+}
+.column .card3{
+    margin-top: -350px;
+    margin-right: -600px;
+}
+.rows{
+display: flex;
+flex-direction: row;
+padding: 0 px;
+margin-top: 0px;
+
+}
+.rows .pic1{
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+}
+.rows .pic2{
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+}
+.rows .pic3{
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+}
+.rows .pic4{
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+}
+.footer{
+    background-color: hsl(168, 34%, 41%);
+    width: 100%;
+    height: 60vh;
+}
+.footer nav{
+    padding-top: 120px;
+    margin-left: 400px;
+}
+.footer nav ol{
+    list-style-type: none;
+    display: flex;
+    gap: 55px;
+
+}
+.footer nav a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.footer h1{
+    color: hsl(167, 40%, 24%);
+    font-size: 40px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#ab
+{
+    color:hsl(167, 40%, 24%); 
+    font-size: 20px;
+    text-decoration: none; 
+
+}
+#pro{
+    color:hsl(167, 40%, 24%); 
+    font-size: 20px;
+    text-decoration: none; 
+}
+#se{
+    color:hsl(167, 40%, 24%);; 
+    font-size: 20px;
+    text-decoration: none;
+
+}
+ .footer #blaque #pro{
+    color:hsl(167, 40%, 24%); 
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 500px;
+
+}
+
+
+
+/*
+.footer h1{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    color: hsl(168, 34%, 41%);
+    font-size: 40px;
+    font-weight: 900px;
+    font-family: 'Fraunces' , serif;
+    padding: 0%;
+    margin: 0px;
+}
+
+ .footer #blaque{ 
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    width: 300px;
+    height: 30px;
+    top: 150px;
+    left: 680px;
+}
+.footer #blaque #Ab{
+    position: absolute;
+    left: 0px;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+.footer#blaque #se{
+    position: absolute;
+    left: 70px;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+.footer #blaque #pro{
+    position: absolute;
+    left: 165px;
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+
+.footer #icons{
+    position: absolute;
+    color: hsl(168, 34%, 41%);
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    width: 300px;
+    height: 30px;
+    top: 230px;
+    left: 710px;
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: 'Barlow' , sans-serif;
+}
+.footer #icons #fb{
+    position: absolute;
+    size: 20px;
+}
+.footer #icons #ig{
+    position: absolute;
+    left: 50px;
+    size: 20px;
+}
+.footer #icons #tw{
+    position: absolute;
+    top: 3px;
+    left: 97px;
+    size: 20px;
+}
+.footer #icons #pin{
+    position: absolute;
+    left: 142px;
+    size: 20px;
+}*/
+
+
+
+  
+
